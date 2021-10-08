@@ -10,14 +10,7 @@
     'Sub: SHOWMULTIPLES
     'Parameter: num 
     'Task: Shows the multiples of num up to 10,000
-    Sub showMultiples(num As Integer)
-        ListBox1.Items.Clear() 'Clear existing data
-        Dim x As Integer
-        For x = 0 To 10000 Step num
-            ListBox1.Items.Add(x)
-        Next
 
-    End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         'Shows the multiples of 5 up to 10,000
